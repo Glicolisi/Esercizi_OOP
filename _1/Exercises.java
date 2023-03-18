@@ -101,12 +101,10 @@ public class Exercises {
 
              somma.add(corso.students.get(j).age.get(0));
              //Arrotondato con trucco
-             media=Math.round((media+somma.get(j))/corso.students.size()*100.0)/100.0;
-
-
+             media+=somma.get(j);
 
         }
-
+        media=Math.round((media)/corso.students.size()*100.0)/100.0;
         System.out.println(media);
 
 
