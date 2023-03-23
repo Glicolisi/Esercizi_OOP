@@ -57,6 +57,7 @@ public class Exercises {
      *    Only make edits that remove or add the words, static or final
      */
     public static void exercise3() {
+        System.out.println("\nExercise 3:");
         ExerciseLunch exerciseLunch = null;
         exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
         exerciseLunch.printMaxPrice();
